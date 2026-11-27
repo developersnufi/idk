@@ -1,0 +1,10 @@
+[package]
+name = "idk-input"
+version = "0.1.0"
+edition = "2021"
+description = "A small evdev input-device inspection and mapping tool"
+license = "MIT"
+
+[[bin]]
+name = "idk"
+path = "src/main.rs"
