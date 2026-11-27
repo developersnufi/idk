@@ -39,6 +39,8 @@ sudo usermod -aG input "$USER"
   are applied to key events printed by `watch`. This initial implementation
   does not alter the kernel input stream or remap keys for other applications.
   Key names such as `KEY_A`, `KEY_ENTER`, and `KEY_SPACE`, and numeric evdev
+
+  created this shi with ai btw
   key codes are accepted.
 - `idk repeat DEVICE DELAY_MS INTERVAL_MS` sets the kernel key-repeat delay and
   interval in milliseconds for that device. The device must support evdev key
